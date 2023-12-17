@@ -1,3 +1,5 @@
+/* Using Chain Selector (Bro did not read the instructions properly) */
+/*
 .btn.black {
     background-color: black;
     color: white;
@@ -10,4 +12,22 @@
 .btn {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
+} 
+*/
+
+/* Using Grouping Selector  */
+
+.black,
+.yellow {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
 }
