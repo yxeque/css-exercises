@@ -25,3 +25,52 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Solution */
+
+/* NOTE TO SELF: Add height property for align-items to work */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+
+ul a {
+  text-decoration: none;
+  color: hsl(0, 0%, 25%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  flex: initial;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+button {
+  padding: 8px;
+}
+
+.footer {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
