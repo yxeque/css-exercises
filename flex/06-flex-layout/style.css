@@ -28,12 +28,12 @@ input {
 
 /* Solution */
 
-/* NOTE TO SELF: Add height property for align-items to work */
+/* NOTE TO SELF: Add height for some properties to work properly (we really struggled with this one) */
+
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
 }
 
 ul {
